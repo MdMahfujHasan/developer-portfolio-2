@@ -1,6 +1,11 @@
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+section {
+    margin-top: 130px;
 }
 
 .header {
@@ -13,7 +18,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
@@ -47,6 +52,15 @@ nav li {
     padding: 18px 35px;
 }
 
+.btn-contact {
+    padding: 18px 24px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+}
+
 .banner {
     margin: 0 200px;
     align-items: center;
@@ -72,7 +86,7 @@ nav li {
     color: #181818;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 113px;
 }
 
 .section-description {
@@ -87,7 +101,6 @@ nav li {
 }
 
 .about {
-    margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 131px 156px;
@@ -103,10 +116,6 @@ main {
     justify-content: space-around;
 }
 
-.about-info {
-    /* margin-right: 50px; */
-}
-
 .info-title {
     text-align: center;
     font-size: 20px;
@@ -118,4 +127,108 @@ main {
     font-size: 20px;
     text-align: center;
     color: #474747;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+.skill {
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.resume-content {
+    display: flex;
+}
+
+.resume-title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-item {}
+
+.resume-item .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-item .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume-item .description {
+    color: #757575;
+}
+
+hr {
+    margin: 30px 0;
+    width: 558px;
+    border: 1px solid #D1D1D1;
+}
+
+.education {
+    margin-right: 71px;
+}
+
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact {
+    display: flex;
+    gap: 117px;
+    background-color: #FFF8F3;
+    padding: 113px 230px;
+}
+
+.contact .section-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact a {
+    text-decoration: none;
+    margin-right: 24px;
+}
+
+.contact .section-description {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
 }
